@@ -355,7 +355,7 @@ GSEA <- function(input.ds, input.cls, input.chip = "NOCHIP", gene.ann = "", gs.d
   temp.desc[gs.count] <- gene.set.desc
   gs.count <- gs.count + 1
  }
- Ng <- gs.count - 1
+ Ng <- gs.count
  gs.names <- vector(length = Ng, mode = "character")
  gs.desc <- vector(length = Ng, mode = "character")
  size.G <- vector(length = Ng, mode = "numeric")
